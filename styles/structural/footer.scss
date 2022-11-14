@@ -1,0 +1,15 @@
+.footer {
+  background-color: $BLACK;
+  color: $WHITE;
+  width: 100%;
+
+  & > div {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    max-width: $DESKTOP_WIDTH;
+    padding: 0 10px;
+    width: 100%;
+  }
+}
