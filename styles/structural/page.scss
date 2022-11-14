@@ -1,3 +1,12 @@
 body {
-  background-color: $TEST_COLOR;
+  background-color: $BACKGROUND;
+}
+
+.main-container {
+  background-color: $WHITE;
+  border-radius: 5px;
+  margin: 10px auto;
+  max-width: $DESKTOP_WIDTH;
+  min-height: 400px;
+  padding: 20px 15px;
 }

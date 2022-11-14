@@ -1,0 +1,30 @@
+.header {
+  background-color: $BLACK;
+  color: $WHITE;
+  width: 100%;
+  
+  .main-nav {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    max-width: $DESKTOP_WIDTH;
+    padding: 0 10px;
+    width: 100%;
+
+    ul {
+      display: flex;
+      gap: 15px;
+  
+      li {
+        a {
+          text-decoration: none;
+  
+          &:hover {
+            color: $HIGH_LIGHT;
+          }
+        }
+      }
+    }
+  }
+}
