@@ -1,0 +1,21 @@
+.todo {
+  &__form {
+    margin-bottom: 15px;
+  }
+
+  &__form,
+  &__input {
+    align-items: center;
+    display: flex;
+    gap: 10px;
+  }
+
+  &__input {
+    input {
+      background: $WHITE;
+      border: 1px solid $BLACK;
+      border-radius: 0;
+      padding: 5px;
+    }
+  }
+}

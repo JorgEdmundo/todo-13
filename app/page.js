@@ -1,9 +1,11 @@
+import ToDoList from './components/elements/ToDoList'
+
 export default function AppHome() {
   return (
     <>
-      <h1>APP routing</h1>
+      <h1>TODO XIII</h1>
       <div>
-        TODO 13 list
+        <ToDoList />
       </div>
     </>
   );

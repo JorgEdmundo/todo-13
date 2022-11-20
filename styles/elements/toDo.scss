@@ -1,0 +1,15 @@
+.todo {
+  &__item {
+    align-items: center;
+    display: flex;
+    gap: 10px;
+    margin-bottom: 8px;
+
+    &--completed {
+      span {
+        color: $GRAY;
+        text-decoration: line-through;
+      }
+    }
+  }
+}
